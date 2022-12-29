@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>labwork-2</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    
+</head>
+
+<body>
+
+    <header>
+        <section class="head-con">
+            <nav class="head-nav">
+                <a href="#reg" class="navigation">Форма реєстрації</a>
+                <a href="#enter" class="navigation">Форма входу</a>
+                <a href="#back" class="navigation">Форма зворотнього зв'язку</a>
+            </nav>  
+        </section>
+    </header>
+
+    <hr>
+
+    <main>
+        <section class="zag-info">
+            <div class="block-con">
+                <div class="block-text">
+                    <p><img src="./images/img1.jpg" alt="images" class="img1">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut dolor eleifend, porttitor nisl vitae, tincidunt lacus. Vestibulum non ultricies turpis. Nulla euismod aliquam lacus ut laoreet. Sed consectetur purus et neque consequat ultrices sit amet in libero. Vivamus nisl neque, varius ac aliquam nec, posuere a est. Etiam ullamcorper tristique fermentum. Suspendisse eleifend quis nisl et egestas. Ut aliquet tincidunt molestie. Donec semper enim eget congue efficitur. Cras vestibulum, augue id venenatis elementum, mi augue facilisis orci, vitae consequat erat nibh a turpis. Mauris consectetur sem dignissim tellus molestie imperdiet. </p>
+                    <p><img src="./images/img6.jpg" alt="images" class="img2">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut dolor eleifend, porttitor nisl vitae, tincidunt lacus. Vestibulum non ultricies turpis. Nulla euismod aliquam lacus ut laoreet. Sed consectetur purus et neque consequat ultrices sit amet in libero. Vivamus nisl neque, varius ac aliquam nec, posuere a est. Etiam ullamcorper tristique fermentum. Suspendisse eleifend quis nisl et egestas. Ut aliquet tincidunt molestie. Donec semper enim eget congue efficitur. Cras vestibulum, augue id venenatis elementum, mi augue facilisis orci, vitae consequat erat nibh a turpis. Mauris consectetur sem dignissim tellus molestie imperdiet. 
+                    </p>
+                    <img src="./images/img4.jpg" alt="images" class="img3">
+                </div>
+                <div class="block-images">
+                    <img src="./images/img3.jpg" alt="images" class="img41">
+                    <img src="./images/img3.jpg" alt="images" class="img42">
+                    <img src="./images/img3.jpg" alt="images" class="img43">
+                </div>
+            </div>
+        </section>
+        <hr id="reg">
+
+        <section class="registration-con">
+            <div>
+                <div>
+                    <h2>Форма реєстрації</h2>
+                </div>
+                <div class="registration-bord">
+                    <form>
+                        <fieldset class="registration-left">
+                            <img src="./images/img-login.png" alt="login-img" class="login-img">
+                            <label class="ln" for="Name">Ім'я:</label>
+                            <input class="td" type='text' name='Name' placeholder="Ім'я">
+                            <label class="ln" for="familiya">Прізвище</label>
+                            <input class="td" type='text' name='familiya' placeholder="Прізвище">
+                            <label class="ln" for="sex">Стать:</label>
+                            <label for="sex"><input type="radio" id="html" name="sex">Чоловіча </label>
+                            <label for="sex"><input type="radio" name="sex" id="sex"> Жіноча </label>
+                            <label class="ln label-age-td" for="age">Вік</label>
+                            <input class="age-td" type="number" value="18" max="99" step="1">
+                            <label class="date"for="date_of_birth">Дата народження</label>
+                            <input class="data-td" type="date">
+                            <button class="button-1" type="submit">Зареєструватись</button>
+                        </fieldset>
+                        <fieldset class="registration-right">
+                            <label class="ln" for="countres">Країна проживання</label>
+                            <input class="td" list="countres" placeholder="Оберіть країну проживання">
+                            <datalist id="countres">
+                                <option value="Данія"></option>
+                                <option value="Австрія"></option>
+                                <option value="Бельгія"></option>
+                                <option value="Болгарія"></option>
+                                <option value="Велика Британія"></option>
+                                <option value="Данія"></option>
+                                <option value="Естонія"></option>
+                                <option value="Ірландія"></option>
+                                <option value="Іспанія"></option>
+                                <option value="Україна"></option>
+                            </datalist>
+                            <label class="ln" for="number">Номер телефону</label>
+                            <input class="td" type="tel" placeholder="+XXX-XXX-XXXX" pattern="\+?[0-9]{3}-[0-9]{3}-[0-9]{4}" minlength="13" maxlength="18">
+                            <label class="ln" for="socialnet">Соцмережа</label>
+                            <input class="td" type="social" placeholder="Посилання на соц.мережу">
+                            <label class="ln" for="email">Електронна пошта</label>
+                            <input class="td" type="email" placeholder="Ел. пошта" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})">
+                            <label class="ln" for="password">Пароль</label>
+                            <input class="td" type="password" size="6" placeholder="Пароль" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" maxlength="16">
+                            <label class="ln"><input type="checkbox"> Чи згідні Ви з умовами?</label>
+                            <button class="button-2" type="reset">Відмінна</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <hr id="enter">
+
+        <section class="log">
+            <div class="log-con">
+                <div class="log__bord">                   
+                        <h2>Форма входу:</h2>           
+                    <form>
+                        <fieldset>
+                            <input class="ln td" type='text' name='login' placeholder="Логін" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})">
+                            <input class="ln td" type="password" placeholder="Пароль" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" maxlength="16">
+                            <button class="button-3" type="submit">Вхід</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <hr id="back">
+
+        <section class="zvernenya">
+            <div class="zver-con">
+                <div class="zver__bord">
+                        <h2>Форма зворотнього зв'язку:</h2>
+                    <fieldset class="zver-left">
+                        <form>
+                            <input class="td" type='text' name='name' placeholder="Ім'я">
+                            <input class="td" type="email" placeholder="Ел. пошта" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})">
+                            <input class="td" list="bags" placeholder="Тема повідомлення">
+                            <datalist id="bags">
+                                <option value="erorr-1">
+                                <option value="erorr-404">
+                                <option value="erorr-500">
+                                <option value="erorr-322">
+                                <option value="erorr in-feedback">
+                            </datalist>
+                            <button class="button-4" type="submit">Відправити</button>
+                        </form>
+                    </fieldset>
+                    <fieldset class="zver-right">
+                        <textarea class="text-place" placeholder="Повідомлення" wrap="off"></textarea>
+                    </fieldset>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <div class="strelka">
+    <a href="#"><img src="images/strelka.png" alt="strelka"></a>
+    </div>
+    <hr>
+</body>
+<footer>
+    <div class="footer-place">
+        <div class="footer-con">
+            <div class="footer-social">
+                <h1>Посилання на соц. мережі</h1>
+                <a target="_blank" href="#"><i class="fa fa-3x fa-youtube "></i></a>
+            <a target="_blank" href="#"><i class="fa fa-3x fa-instagram "></i></a>
+            <a target="_blank" href="#"><i class="fa fa-3x fa-twitter "></i></a>
+            <a target="_blank" href="#"><i class="fa fa-3x fa-facebook-square "></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+</html>

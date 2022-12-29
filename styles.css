@@ -1,0 +1,303 @@
+*{
+        margin: 0;
+        
+    }
+    
+    html {
+        scroll-behavior: auto;
+    }
+    
+    
+    body {
+        background: url('images/back.jpg');
+        color: white;
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: system-ui;
+    }
+    
+    [class*="-con"] {
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+    
+    
+    .logo-img{
+        width: 17%;
+        height: 100px;
+        border-radius: 100px;
+    }
+    
+    hr {
+        border: none;
+        border-top: 3px double rgb(255, 0, 0);
+        color: rgb(250, 0, 0);
+        overflow: visible;
+        height: 5px;
+        clear:both;
+        margin: 20px 0 20px 0;
+    }
+    
+    hr:after {
+        background: #fff;
+        padding: 0 4px;
+        position: relative;
+        top: -13px;
+    }
+    
+    
+    .head-nav{
+        height: 100px;
+        position: relative;
+        top: 40px;
+        margin-left: 300px;
+        font-size: 25px;
+    }
+    
+    .navigation {  
+        display: inline-block;
+        margin: 0 15px;
+        color: #ffffff;
+        text-decoration: none;
+        transition: color .2s linear;
+    }
+    
+    .navigation:hover {
+        color: rgb(229, 255, 0);
+    }
+    
+    h2{
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    
+    .block-text {
+        width:60%;
+        height: 650px;  
+        float:left; 
+    }
+    
+    .block-images { 
+        width:22%; 
+        height:560px; 
+        float:right; 
+    }
+    .img2{
+        float: right; 
+        width: 150px;
+        height: 150px;
+        position: sticky;
+        top: 5px;
+    }
+
+    .img1{
+        margin:  5px 10px -6px 0px;
+        float: left;
+        width: 200px;
+        height: 390px;
+    }
+    
+    .img3{
+        float: none;
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        bottom: 230px;
+    }
+    
+    .img41{
+        height: 200px;
+        width: 300px;
+        position: relative;
+        z-index: 0; 
+    }
+
+    .img42{
+        height: 200px;
+        width: 300px;
+        position: relative;
+        bottom: 50px;
+       left: 80px;
+       z-index: 1;
+    }
+
+    .img43{
+        height: 200px;
+        width: 300px;
+        position: relative;
+        bottom: 100px;
+        left: 160px;
+        z-index: 2;
+    }
+    
+    .registration-bord{
+        margin: auto;
+        border: 3px solid rgb(248, 0, 0); 
+        width: 80%;
+        height: 520px;     
+    }
+    fieldset{
+        border: none;
+    }
+    
+    .registration-left{
+        width: 45%;
+        height: 500px;
+        float: left;
+    }
+    
+    .registration-right{   
+        margin-top: 10px;
+        height: 500px;
+        width: 45%;
+        float: right; 
+    }
+    
+    
+    .login-img{  
+        margin-top: 10px;
+        border-radius: 100%;
+        width: 80px;   
+    }
+    
+    form{
+        text-align: center;
+    }
+    
+    .age-td{
+        margin: auto;
+        margin-top: 5px;
+        margin-bottom: 10px ;
+        width: 50px;
+        height:20px;
+        display: block;
+    }
+    
+    .label-age-td{
+        margin-top: 10px;
+    }
+    
+    
+    .data-td{
+        margin-left: 30px;
+        margin-bottom: 20px ;   
+        height:40px
+    }
+    
+    .td{
+        margin: auto;
+        margin-bottom: 20px ;
+        width:250px;
+        height:25px 
+    }
+        
+    .button-1{   
+        margin-top: 20px;
+        margin-left: 120px;
+        float: left;
+        padding: 10px 25px;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        text-align: center;
+        font-size: 16px;
+    }
+    
+    .button-2{  
+        margin-top: 42px;
+        margin-right: 150px;
+        float: right;
+        padding: 10px 25px;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .log__bord{
+        margin: 0 auto;
+        border: 2px solid rgb(255, 0, 0); 
+        width: 30%;
+        height: 225px;    
+    }
+    
+    .button-3{  
+        font-size: 16px;
+        color: #fff;
+        padding: 10px 20px;
+        background-color: rgb(0, 0, 0);
+    }
+    
+    .zver__bord{
+        margin: 0 auto;
+        border: 2px solid rgb(255, 0, 0); 
+        width: 60%;
+        height: 300px;     
+    }
+    
+    
+    .zver-left{
+    
+        margin-top: 20px;
+        width: 40%;
+        float: left;
+    }
+    
+    .zver-right{
+        margin-top: 20px;
+        width: 50%;
+        float: right; 
+    }
+    .text-place{
+        height: 150px;
+        width: 350px;
+    }
+    .ln{
+        display: block;
+    }
+    .button-4{
+        font-size: 16px;
+        color: #fff;
+        padding: 10px 20px;
+        background-color: rgb(0, 0, 0);
+    }
+    
+    .footer-place{
+        width: 100%;
+        background-color: 0;
+    }
+    
+    .footer-social{
+        padding: 0px 0px 0px 260px;
+        float: left;
+        width: 40%;
+        height: 140px;   
+    }
+
+    .footer-social i {
+        padding: 20px;
+      }
+      .footer-social a:nth-child(2) {
+        color: #cf2724;
+      }
+    
+      .footer-social a:nth-child(3) {
+        color: #b10e88;                                    
+      }
+    
+      .footer-social a:nth-child(4) {
+        color: #009dd6;
+      }
+      
+      .footer-socials a:nth-child(5) {
+        color: #476fe7;
+      }
+    .strelka{ 
+   background-color: #ff8800;   
+   width: 60px;   
+   height: 60px;   
+   border-radius: 50%;     
+   position: fixed;   
+   bottom: 10px;   
+   right: 10px;     
+   z-index: 10;
+    }
